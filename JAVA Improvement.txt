@@ -1,3 +1,13 @@
 JAVA Improvement: 
 
 JAVA initialize the all integer variable by 0
+
+char -> int  [int a = Character.getNumericValue('1');] -----> accept only char
+Ex. '1' -> 1
+
+char -> String [String s = String.valueOf('a');] -----------> accept only char
+Ex. 'a' -> "a"
+
+String -> int
+int a = Integer.parseInt("1854");   ------------> Accept only string value
+Ex. "1854" -> 1854
