@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 class Solution4 {
     public int[] add(int[] a,int[] b){
         int[] result = new int[a.length+b.length];
@@ -60,5 +59,6 @@ public class MedianOfTwoSortedArray {
         Solution4 s = new Solution4();
         double median = s.findMedianSortedArrays(a, b);
         System.out.println("Median = "+median);
+        sc.close();
     }
 }
