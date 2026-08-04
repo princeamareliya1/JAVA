@@ -11,3 +11,9 @@ Ex. 'a' -> "a"
 String -> int
 int a = Integer.parseInt("1854");   ------------> Accept only string value
 Ex. "1854" -> 1854
+
+List define as :-
+ArrayList<Integer> l = new ArrayList<>();
+l.add(24); -> add the number inside the list
+
+Arrays.sort(arr); -> give a sorted array in ascending order
