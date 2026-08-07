@@ -1,5 +1,7 @@
 JAVA Improvement: 
 
+import java.util.*;
+
 JAVA initialize the all integer variable by 0
 
 char -> int  [int a = Character.getNumericValue('1');] -----> accept only char
@@ -12,8 +14,20 @@ String -> int
 int a = Integer.parseInt("1854");   ------------> Accept only string value
 Ex. "1854" -> 1854
 
+Arrays.sort(arr); -> give a sorted array in ascending order
+
+arr.length;     ->  array length
+str.length();   -> length of String
+
 List define as :-
 ArrayList<Integer> l = new ArrayList<>();
 l.add(24); -> add the number inside the list
 
-Arrays.sort(arr); -> give a sorted array in ascending order
+2D list declaration :-
+List<List<Integer>> matrix = new ArrayList<>(); --> Empty list
+
+first create row then add elements
+matrix.add(new ArrayList<>());  --> create row
+
+matrix.get(0).add(5); -> add 5 in first row(index 0)
+matrix.get(0).get(0); -> give value at index [0,0];
