@@ -31,3 +31,13 @@ matrix.add(new ArrayList<>());  --> create row
 
 matrix.get(0).add(5); -> add 5 in first row(index 0)
 matrix.get(0).get(0); -> give value at index [0,0];
+
+
+how to convert integer to string in java?
+String str = Integer.toString(num) ;
+
+if i want to take first 3 character from string?
+String s1 = str.subString(start index , end index);
+
+how to convert string to integer?
+int n1 = Integer.parseInt(s1);
